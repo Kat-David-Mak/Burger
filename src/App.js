@@ -12,10 +12,13 @@ const [showLettuce, setShowLettuce] = useState(true);
       <div className="outercover">
       <h4> <i>Top Bread</i> </h4> <button className="addbutton" onClick={ () => setShowTopBread(true)}> Add </button>
       <button className="removebutton" onClick={ () => setShowTopBread(false)}> Remove </button>
+
       <h4> <i>Tomato</i> </h4> <button className="addbutton" onClick={ () => setShowTomato(true)}> Add </button>
       <button className="removebutton" onClick={ () => setShowTomato(false)}> Remove </button>
+
       <h4> <i>Meat</i> </h4> <button className="addbutton" onClick={ () => setShowMeat(true)}> Add </button>
       <button className="removebutton" onClick={ () => setShowMeat(false)}> Remove </button>
+      
       <h4> <i>Lettuce</i> </h4> <button className="addbutton" onClick={ () => setShowLettuce(true)}> Add </button>
       <button className="removebutton" onClick={ () => setShowLettuce(false)}> Remove </button>
       </div>
