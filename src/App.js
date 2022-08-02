@@ -1,7 +1,7 @@
 import { useState} from 'react';
 import './App.css';
 
-function App() {
+function App() {  
 const [showTopBread, setShowTopBread] = useState(true);
 const [showTomato, setShowTomato] = useState(true);
 const [showMeat, setShowMeat] = useState(true);
@@ -32,6 +32,7 @@ const [showLettuce, setShowLettuce] = useState(true);
       </div>
       }
 
+      {/* Visible Divs */}
       {showTomato  && 
       <div className="tomato">
         <p>
