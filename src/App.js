@@ -35,7 +35,6 @@ const [showLettuce, setShowLettuce] = useState(true);
       </div>
       }
 
-      {/* Visible Divs */}
       {showTomato  && 
       <div className="tomato">
         <p>
